@@ -12,3 +12,6 @@ class Article(models.Model):
 
     def get_excerpt(self):
         return self.text[:140] + "..." if len(self.text) > 140 else self.text
+    
+    def get_expert(self):
+        return self.text[:140] + "..." if len(self.text) > 14000 else self.text
