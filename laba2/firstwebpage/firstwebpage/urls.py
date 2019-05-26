@@ -19,5 +19,5 @@ from flatpage import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', views.home, name='home'),
+    path('', views.home, name='home'),
 ]
