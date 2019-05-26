@@ -1,10 +1,10 @@
 body {
 
-background: #1abc9c;
+background: #7456c6;
 
 font-family: Tahoma, Arial, sans-serif;
 
-color: #333;
+color: white;
 
 }
 
@@ -13,6 +13,13 @@ table {
 border-collapse: collapse;
 
 }
+
+h1 {
+
+font-family: "Times New Roman";
+
+}
+
 
 p, h4 {
 
