@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Public Blog - создать статью</title>
+    <link rel="stylesheet" href="{{ STATIC_URL }}/static/css/create_post.css">
+</head>
+<body>
+<div class="header">
+    <img src="https://toplogos.ru/images/logo-mcdonalds.png">
+
+    </div>
+
+        <div class="content">
+            <h1>Написать статью</h1>
+            <h2 class="post-title">
+                <a href="/">Вернуться на главную</a>
+            </h2>
+            <form method="POST">{% csrf_token %}
+                <input class="name" type="text" name="title" placeholder="Название статьи" value="{{ form.title }}">
+                <textarea name="text" placeholder="Текст статьи">{{ form.text }}</textarea>
+                <input  class="save" type="submit" value="Сохранить">
+            </form>
+            {{ form.errors }}
+            {% if error %}
+                {% for error in error %}
+                    <h1 class="error">{{ error}}</h1>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+</body>
+</html>

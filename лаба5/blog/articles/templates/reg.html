@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="{{ STATIC_URL }}/static/css/reg.css">
+</head>
+
+<body>
+<div class="header">
+    <img src="https://toplogos.ru/images/logo-mcdonalds.png">
+</div>
+	<div class="content">
+		<h1>Создать аккаунт</h1>
+        <h2 class="post-title">
+                <a href="/">Вернуться на главную</a>
+        </h2>
+		<form method="POST"> {% csrf_token %}
+			<input class="login" type="text" name="username" placeholder="Логин">
+			<input class="password" type="password" name="password" placeholder="Пароль">
+			<input class="email" type="email" name="email" placeholder="Почта">
+			<input class="reg" type="submit" value="Зарегистрироваться">
+		</form>
+		{{ form.errors }}
+	</div>
+</body>
+</html>
