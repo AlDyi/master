@@ -1,0 +1,39 @@
+body {
+
+background: #7456c6;
+
+font-family: Tahoma, Arial, sans-serif;
+
+color: white;
+
+}
+
+table {
+
+border-collapse: collapse;
+
+}
+
+h1 {
+
+font-family: "Times New Roman";
+
+font-size: 26px
+
+}
+
+
+table tr td {
+
+padding: 10px;
+
+}
+
+table {
+
+width: 100%;
+
+font-size: 20px;
+
+}
+
