@@ -80,7 +80,8 @@ def dj_login(request):
                     login(request, someone)
                     return redirect('/')
                 else:
-                    raise Http404
+                    error.append("Вы неправильно ввели логин и/или пароль!")
+                    return render(request, 'login.html', {'form': form, 'error': error})
             else:
                 raise Http404
         else:
