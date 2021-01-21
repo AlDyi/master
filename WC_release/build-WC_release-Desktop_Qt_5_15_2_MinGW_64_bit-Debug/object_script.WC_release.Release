@@ -1,0 +1,10 @@
+release/auth_window.o
+release/main.o
+release/mainwindow.o
+release/note.o
+release/reg_window.o
+release/qrc_recource.o
+release/moc_auth_window.o
+release/moc_mainwindow.o
+release/moc_note.o
+release/moc_reg_window.o

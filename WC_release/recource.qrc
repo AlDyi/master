@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>images/иконки_Log_pas-02.png</file>
+        <file>images/иконки_Log_pas2-02.png</file>
+        <file>images/иконки_Log_pas2-03.png</file>
+        <file>images/иконки_Log_pas-03.png</file>
+        <file>images/Кнопки-05.png</file>
+        <file>images/Кнопки-06.png</file>
+        <file>images/писанина2-04.png</file>
+        <file>images/писанина-04.png</file>
+        <file>images/регистрация-06.png</file>
+        <file>images/тень-05.png</file>
+        <file>images/линия-05.png</file>
+        <file>images/линия2-05.png</file>
+        <file>images/нов_линия-05.png</file>
+        <file>images/повтор-09.png</file>
+        <file>images/заголовок-04.png</file>
+        <file>images/заголовок-10.png</file>
+        <file>images/плюс2-11.png</file>
+        <file>images/плюс-11.png</file>
+        <file>images/плюс-12.png</file>
+        <file>images/плюс3-11.png</file>
+        <file>images/иконки_окон-12.png</file>
+        <file>images/иконки_окон-14.png</file>
+        <file>images/icons8-delete-bin-96.png</file>
+        <file>images/icons8-save-96.png</file>
+        <file>images/заметки-20.png</file>
+        <file>images/заметки-21.png</file>
+        <file>images/заметки-22.png</file>
+        <file>images/Стрелки-23.png</file>
+        <file>images/Стрелки-24.png</file>
+        <file>images/Светлая тема-02.png</file>
+        <file>images/Светлая тема-04.png</file>
+        <file>images/Светлая тема-08.png</file>
+        <file>images/Светлая тема-09.png</file>
+        <file>images/Светлая тема-16.png</file>
+        <file>images/Светлая тема-17.png</file>
+        <file>images/Светлая тема-18.png</file>
+        <file>images/Светлая тема-19.png</file>
+        <file>images/Button+.png</file>
+    </qresource>
+</RCC>
